@@ -1,4 +1,13 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class Order {
+    constructor(number, number, shipped, ship_to, status, total) {
+        this.number = number;
+        this.ship_to = ship_to;
+        this.status = status;
+        this.total = total;
+    }
+}
 publice;
 calculateTotal();
 number;

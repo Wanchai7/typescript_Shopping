@@ -5,7 +5,7 @@ class OrderStatus {
 }
 exports.OrderStatus = OrderStatus;
 OrderStatus.NEW = "New";
-OrderStatus.ACTIVE = "";
-OrderStatus.BLOCKED = "";
-OrderStatus.BANNED = "";
-OrderStatus.BANNED = "";
+OrderStatus.HOLD = "Hold";
+OrderStatus.SHIPPED = "Shipped";
+OrderStatus.DELIVERED = "Delivered";
+OrderStatus.CLOSED = "Closed";
